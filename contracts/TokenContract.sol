@@ -9,7 +9,7 @@ contract ERC20 is IERC20 {
     mapping(address => uint) public balanceOf;
     mapping(address => mapping(address => uint)) public allowance;
     string public name = "BlessingToken";
-    string public symbol = "BTN";
+    string public symbol = "BLT";
     uint8 public decimals = 18;
 
     function transfer(address recipient, uint amount) external returns (bool) {

@@ -8,7 +8,7 @@ async function main() {
 //this will send one ether along when deploying
 const amountToSent = ethers.utils.parseEther("0.01");
 
-const TokenContract = await ethers.getContractFactory("Token");
+const TokenContract = await ethers.getContractFactory("TokenContract");
 const tokenContract = await TokenContract.deploy();
 
 await tokenContract.deployed();

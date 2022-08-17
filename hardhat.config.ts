@@ -13,7 +13,7 @@ const config: HardhatUserConfig = {
    networks: {
       hardhat: {
     forking: {
-      url: "https://mainnet.infura.io/v3/b282b364c8bc4347a14d8dcd53de02ce",
+      url: "https://ropsten.infura.io/v3/b282b364c8bc4347a14d8dcd53de02ce",
     }
   },
     ropsten: {
